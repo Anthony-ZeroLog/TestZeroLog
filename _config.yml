@@ -7,7 +7,7 @@ author:
 
 
 # Production url.
-url: "https://test-zerolog.vercel.app"
+url: "https://test-zero-log.vercel.app"
 
 # Part after .com, etc. Use / if none
 baseurl: ""

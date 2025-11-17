@@ -2,8 +2,12 @@
 {% assign post_title = page.title | url_encode %}
 
 <div class="post__sharing">
-
+    <!--
     <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ post_url }}&title={{ post_title }}" target="_blank" rel="noopener noreferrer">
+        Share on <i class="fab fa-linkedin"></i>
+    </a>
+    -->
+    <a href="https://www.linkedin.com/sharing/share-offsite/?url={{ post_url }}" target="_blank" rel="noopener noreferrer">
         Share on <i class="fab fa-linkedin"></i>
     </a>
 
