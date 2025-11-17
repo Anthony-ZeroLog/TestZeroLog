@@ -1,0 +1,95 @@
+title: Zero Log
+email: 
+description: >- 
+
+author:
+  name: 
+
+
+# Production url.
+url: "https://test-zerolog.vercel.app"
+
+# Part after .com, etc. Use / if none
+baseurl: ""
+
+twitter_username: 
+github_username:  Cairo
+timezone: America/Mexico_City
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-paginate-v2
+  - jekyll-sitemap
+  - jekyll-archives
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+
+# Paginaciòn inicial configurada de manera global
+#pagination:
+#  enabled: true
+#  per_page: 5
+#  permalink: /page:num/
+#  sort_reverse: true
+
+# Paginaciòn configurada para los layouts para cada una de las categorias
+#pagination:
+#  enabled: true
+#  per_page: 3
+#  sort_reverse: true
+#  -scope: 
+#    type: categories
+#    path: Notes
+#    permalink: /page:num/
+#    title: "Notes - Página:num"
+#    enabled: true
+#  -scope: 
+#    type: categories
+#    path: Labs-Projects
+#    permalink: /page:num/
+#    title: "Labs & Projects - Página :num"
+#    enabled: true
+
+#Jekyll Archives modificado
+jekyll-archives:
+  enabled: 
+    - tags
+  layout: archive
+  permalinks:
+    tag: /tag/:name/
+
+# Layouts para cada categoria
+#jekyll-archives:
+#  enabled:
+#    - categories
+#    - tags
+#  layout: archive
+#  permalinks:
+#    category: /category/:name/
+#    tag: /tag/:name/
+
+# highlighter: rouge
+# markdown: kramdown
+# kramdown:
+#   syntax_highlighter_opts:
+#      block:
+#        line_numbers: true

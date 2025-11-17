@@ -1,0 +1,22 @@
+.header {
+    padding: 2rem 0;
+    background-color: $hfColor;
+}
+
+.header__flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__links {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.header__link:hover {
+    color: $h1Color;
+    text-decoration: underline;
+}
