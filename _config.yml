@@ -1,19 +1,18 @@
 title: Zero Log
-email: 
+email: anthony.zerolog@gmail.com
 description: >- 
 
 author:
-  name: 
-
+  name: Anthony Joaquin Martinez
 
 # Production url.
-url: "https://test-zero-log.vercel.app"
+url: "https://zero-log.aj-martinez.com"
 
 # Part after .com, etc. Use / if none
 baseurl: ""
 
 twitter_username: 
-github_username:  Cairo
+github_username:  Anthony-ZeroLog
 timezone: America/Mexico_City
 
 # Build settings
@@ -23,6 +22,7 @@ plugins:
   - jekyll-paginate-v2
   - jekyll-sitemap
   - jekyll-archives
+  - jekyll-toc
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -50,24 +50,6 @@ plugins:
 #  per_page: 5
 #  permalink: /page:num/
 #  sort_reverse: true
-
-# Paginaciòn configurada para los layouts para cada una de las categorias
-#pagination:
-#  enabled: true
-#  per_page: 3
-#  sort_reverse: true
-#  -scope: 
-#    type: categories
-#    path: Notes
-#    permalink: /page:num/
-#    title: "Notes - Página:num"
-#    enabled: true
-#  -scope: 
-#    type: categories
-#    path: Labs-Projects
-#    permalink: /page:num/
-#    title: "Labs & Projects - Página :num"
-#    enabled: true
 
 #Jekyll Archives modificado
 jekyll-archives:

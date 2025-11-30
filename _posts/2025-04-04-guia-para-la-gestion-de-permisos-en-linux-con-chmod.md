@@ -3,7 +3,7 @@ layout: post
 title: "Guía para la gestión de permisos en Linux con chmod"
 date: 2025-04-04 11:37:00 -0600
 categories: [Notes]
-tags: [Linux y bash scripting, XXS, SQL Injection, XRSS, Fuerza Bruta, Hydra]
+tags: [Linux y bash scripting, XSS, SQL Injection, Fuerza Bruta, Hydra]
 meta_description: Domina la gestión de permisos en Linux con el comando chmod. Aprende a controlar los permisos de usuario, grupo y otros de tus archivos con ejemplos prácticos y la notación octal.
 description: En el universo de Linux, la gestión de permisos es una de las tareas más críticas para mantener la seguridad y la.....
 img: /assets/img/linux-029.webp

@@ -41,3 +41,5 @@ gem 'csv'
 gem 'base64'
 
 gem 'jekyll-archives'
+
+gem "jekyll-toc"

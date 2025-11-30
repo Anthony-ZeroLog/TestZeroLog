@@ -18,7 +18,7 @@ En el vasto universo de Linux, el scripting en bash es una herramienta esencial 
 
 A diferencia de los programas compilados (como los escritos en C++ o Java), los scripts no necesitan un proceso de compilación antes de ser ejecutados. Son interpretados directamente por la consola, lo que los hace rápidos y flexibles.
 
-**Creando tu Primer Script: "¡Hola, Mundo!" en la Línea de Comandos**
+**Creando tu Primer Script: "¡Hola, Mundo!" en la Línea de Comandos**{: .strong }
 
 Para adentrarnos en el contexto del scripting y familiarizarnos con él, crearemos un ejemplo básico. En este caso, nos situaremos en el directorio de Escritorio, donde con la ayuda de un editor de texto como nano, crearemos nuestro script llamado script.sh.
 

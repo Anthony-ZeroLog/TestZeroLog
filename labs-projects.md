@@ -28,7 +28,7 @@ pagination:
 
             <div class="categories__posts--right">
 
-                <p class="categories__posts--words"><small class="index__author">KuroTsume </small>| {{ post.date | date: "%d-%m-%Y" }}</p>
+                <p class="categories__posts--words"><small class="index__author">Anthony Joaquin Martinez </small>| {{ post.date | date: "%d-%m-%Y" }}</p>
                 
                 <h3 class="categories__posts--title">
                     <a href="{{ post.url }}">{{ post.title }}</a>

@@ -3,7 +3,7 @@ layout: post
 title: "Instalar Snap en Linux Mint: Guía paso a paso y solución de errores"
 date: 2025-02-28 11:37:00 -0600
 categories: [Labs-Projects]
-tags: [Linux y bash scripting, XXS, SQL Injection, XRSS, Fuerza Bruta, Hydra]
+tags: [Linux y bash scripting, XSS, SQL Injection, Fuerza Bruta, Hydra]
 meta_description: Guía completa para instalar el gestor de paquetes Snap en Linux Mint. Aprende a solucionar el bloqueo de instalación y a usar los comandos esenciales para gestionar aplicaciones.
 description: Snap es un gestor de paquetes de Linux que facilita la instalación de aplicaciones.....
 img: /assets/img/linux-014.webp

@@ -36,6 +36,10 @@ ul li {
     }
 }
 
+p {
+    margin: 1rem 0;
+}
+
 .container {
     width: 90%;
     max-width: 150rem;
@@ -93,6 +97,7 @@ h3 {
 h4 {
     font-size: 1.875rem;
     color: $h4Color;
+    margin-top: 1rem;
 
     @media (max-width: 768px) {
         font-size: 2rem;
@@ -121,4 +126,8 @@ blockquote {
     border-radius: 1rem;
     padding: 1rem 2rem;
     background-color: $boxColor;
+}
+
+.strong {
+    margin-top: 1rem;
 }

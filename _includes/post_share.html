@@ -2,11 +2,7 @@
 {% assign post_title = page.title | url_encode %}
 
 <div class="post__sharing">
-    <!--
-    <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ post_url }}&title={{ post_title }}" target="_blank" rel="noopener noreferrer">
-        Share on <i class="fab fa-linkedin"></i>
-    </a>
-    -->
+
     <a href="https://www.linkedin.com/sharing/share-offsite/?url={{ post_url }}" target="_blank" rel="noopener noreferrer">
         Share on <i class="fab fa-linkedin"></i>
     </a>
@@ -23,11 +19,6 @@
         Share on <i class="fab fa-telegram"></i>
     </a>
 
-    <!-- Instagram NO permite compartir enlaces directamente. Esto no funcionará -->
-    <a href="#" onclick="alert('Instagram no permite compartir enlaces automáticamente'); return false;">
-        Share on <i class="fab fa-instagram"></i>
-    </a>
-
     <a href="#" id="copyLink" onclick="copyToClipboard('{{ post_url }}', event)">
         Copy Link <i class="fas fa-link"></i>
     </a>
@@ -35,39 +26,3 @@
 </div>
 
 <p id="copyMessage" class="copyMessage">Enlace copiado al portapapeles</p>
-
-
-
-
-<!--
-<div class="social-sharing">
-    <a href="https://www.facebook.com/sharer/sharer.php?u={{ page.url | absolute_url }}" target="_blank" rel="noopener noreferrer">
-        Share on LinkedIn <i class="fab fa-facebook"></i>
-    </a>
-
-    <a href="https://www.facebook.com/sharer/sharer.php?u={{ page.url | absolute_url }}" target="_blank" rel="noopener noreferrer">
-        Share on Twitter <i class="fab fa-twitter"></i>
-    </a>
-
-    <a href="https://www.facebook.com/sharer/sharer.php?u={{ page.url | absolute_url }}" target="_blank" rel="noopener noreferrer">
-        Share on Instagram <i class="fab fa-facebook"></i>
-    </a>
-
-    <a href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ page.url | absolute_url }}" target="_blank" rel="noopener noreferrer">
-        Share on <i class="fab fa-facebook"></i>
-    </a>
-
-    <a href="#" id="copyLink" onclick="copyToClipboard('{{ page.url | absolute_url }}', event)">
-        Copy Link <i class="fas fa-link"></i>
-    </a>  
-</div>
--->
-<!-- Mensaje que se mostrará cuando se copie el enlace -->
- <!--
-<p id="copyMessage" class="copyMessage">Enlace copiado al portapapeles</p>
--->
-
-
-
-
-

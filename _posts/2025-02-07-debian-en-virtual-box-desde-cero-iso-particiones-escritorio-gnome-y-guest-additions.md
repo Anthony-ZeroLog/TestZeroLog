@@ -17,11 +17,11 @@ Cuando ya tenemos creada la máquina virtual en VirtualBox, el siguiente paso es
 #### Descargar la ISO de Debian
 La búsqueda del archivo ISO se realiza desde el navegador web.
 
-![alt text](/assets/img/linux-005-1.webp){: width="700" }
+![alt text](/assets/img/linux-005-1.webp){: width="700" .post__img}
 
 Localizamos el botón de descarga y hacemos clic.
 
-![alt text](/assets/img/linux-005-2.webp){: width="700" }
+![alt text](/assets/img/linux-005-2.webp){: width="700" .post__img}
 
 Esperamos a que finalice la descarga para poder usar la ISO dentro de VirtualBox.
 
@@ -30,7 +30,7 @@ Una vez descargado el archivo ISO de Debian, debemos localizar su ruta. En este 
 
 Abrimos el menú de configuración de nuestra máquina virtual para asignar la ISO descargada:
 
-![alt text](/assets/img/linux-005-3.webp){: width="700" }
+![alt text](/assets/img/linux-005-3.webp){: width="700" .post__img}
 
 En el apartado Almacenamiento → Dispositivos → Controlador, seleccionamos el ícono de CD y la opción “Seleccionar un archivo de disco”.
 

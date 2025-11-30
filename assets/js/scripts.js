@@ -27,7 +27,26 @@ function copyToClipboard(url, event) {
     }, 6000);
 }
 
+// Desplegar y ocultar menú hamburguesa
+const headerNav = document.querySelector('#header__nav');
+const headerOpen = document.querySelector('#header__open');
+const headerClose = document.querySelector('#header__close');
+const headerLinks = document.querySelectorAll('.header__links a');
 
+/** Desplegar y ocultar menu hamburguesa **/
+headerOpen.addEventListener("click", () => {
+    headerNav.classList.add("visible");
+})
+
+headerClose.addEventListener("click", () => {
+    headerNav.classList.remove("visible");
+})
+
+headerLinks.forEach(link => {
+    link.addEventListener('click', () => {
+        headerNav.classList.remove("visible");
+    });
+});
 
 
 

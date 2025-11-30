@@ -110,6 +110,10 @@
     color: $h3Color;
     font-weight: 900;
     text-align: center;
+
+    @media (max-width: 480px) {
+        display: none;
+    }
 }
 
 
